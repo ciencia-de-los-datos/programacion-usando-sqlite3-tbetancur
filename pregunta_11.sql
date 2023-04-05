@@ -36,5 +36,5 @@
 --     YEAR  CANT
 --  0  2018     6
 --
---  >>> Escriba su codigo a partir de este punto <<<
+
 SELECT COUNT(*) FROM tbl1 where strftime('%Y', c14) = '2018'
